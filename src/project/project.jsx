@@ -24,7 +24,7 @@ function Project() {
                 <div className="grid" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="700">
                     <div className="hideTop">iPhone Clone
-                        <p className="hideSmall">A clone project of iPhone on web, using various frontend technologies<br/></p>
+                        <p className="hideSmall">A clone project of iPhone on web, using various frontend technologies</p>
                         <p style={{fontSize: "13px", color: "skyblue"}}>React JS / Vite JS / CSS3</p>
                     </div>
                     <img className="imgmobile" src={iphone} />
@@ -32,7 +32,11 @@ function Project() {
                 </div>
                 <div className="grid" data-aos="fade-up" data-aos-delay="300"
                     data-aos-duration="600">
-                    <div className="hideTop">Weather App</div>
+                    <div className="hideTop">Weather App
+                        <p className="hideSmall">Utilized WeatherAPI from RapidAPI to fetch<br/>and 
+                        display real-time worldwide weather info </p>
+                        <p style={{fontSize: "13px", color: "skyblue"}}>React JS / Vite JS / CSS3</p>
+                    </div>
                     <img className="imgmobile" src={weather} />
                     <div className="hideBot">
                         <div>LEARN MORE</div>
@@ -40,7 +44,11 @@ function Project() {
                 </div>
                 <div className="grid" data-aos="fade-up" data-aos-delay="500"
                     data-aos-duration="550">
-                    <div className="hideTop">Youtube App</div>
+                    <div className="hideTop">Youtube App
+                        <p className="hideSmall">Utilized YouTube Data API to fetch, store and handle
+                        real-time data using various React Hooks</p>
+                        <p style={{fontSize: "13px", color: "skyblue"}}>React JS / Vite JS / CSS3</p>
+                    </div>
                     <img className="imgmobile" src={youtube} />
                     <div className="hideBot"><div>LEARN MORE</div></div>
                 </div>
