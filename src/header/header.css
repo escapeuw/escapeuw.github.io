@@ -1,0 +1,74 @@
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(105, 110, 126);
+}
+
+.header {
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    height: 12vh;
+    width: 100%;
+    align-items: center;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    mask: linear-gradient(to top, transparent, black 35%);
+}
+
+.container {
+    max-width: 900px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.nav a:hover {
+    background: -webkit-linear-gradient(45deg, #65adaf, #77d7ec, #5572c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.15s;
+}
+
+.nav a::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: white;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}

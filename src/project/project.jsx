@@ -1,0 +1,71 @@
+import './project.css';
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import iphone from '/Users/danie/Documents/github/danweb/src/assets/newiphone.png';
+import weather from '/Users/danie/Documents/github/danweb/src/assets/weatherframe.png';
+import calc from '/Users/danie/Documents/github/danweb/src/assets/calc.png';
+import youtube from '/Users/danie/Documents/github/danweb/src/assets/youtube.png';
+import danweb from '/Users/danie/Documents/github/danweb/src/assets/danweb.png';
+import drum from '/Users/danie/Documents/github/danweb/src/assets/drum.png';
+
+function Project() {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+    return (
+        <section id="project">
+            <div className="title" data-aos="fade-left" data-aos-offset="100"
+                data-aos-duration="700">
+                PROJECTS
+            </div>
+            <div className="project-grids">
+                <div className="grid" data-aos="fade-up" data-aos-delay="100"
+                    data-aos-duration="700">
+                    <div className="hideTop">iPhone Clone</div>
+                    <img className="imgmobile" src={iphone} />
+                    <div className="hideBot"><div>LEARN MORE</div></div>
+                </div>
+                <div className="grid" data-aos="fade-up" data-aos-delay="300"
+                    data-aos-duration="600">
+                    <div className="hideTop">Weather App</div>
+                    <img className="imgmobile" src={weather} />
+                    <div className="hideBot">
+                        <div>LEARN MORE</div>
+                    </div>
+                </div>
+                <div className="grid" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="550">
+                    <div className="hideTop">Youtube App</div>
+                    <img className="imgmobile" src={youtube} />
+                    <div className="hideBot"><div>LEARN MORE</div></div>
+                </div>
+                <div className="grid" data-aos="fade-up" data-aos-delay="50"
+                    data-aos-duration="550" data-aos-offset="80">
+                    <div className="hideTop">Calculator</div>
+                    <img className="imgzoom" src={calc} />
+                    <div className="hideBot"><div>LEARN MORE</div></div>
+                </div>
+                <div className="grid" data-aos="fade-up" data-aos-delay="100"
+                    data-aos-duration="550" data-aos-offset="80">
+                    <div className="hideTop">Portfolio</div>
+                    <img className="imgzoom" style={{objectPosition: "top"}} src={danweb} />
+                    <div className="hideBot"><div>LEARN MORE</div></div>
+                </div>
+                <div className="grid" data-aos="fade-up" data-aos-delay="150"
+                    data-aos-duration="550" data-aos-offset="80">
+                    <div className="hideTop">Drum Machine
+                        <p className="hideSmall">Implementation of simple drum machine. <br/>
+                        Utilized Audio constructor</p>
+                    </div>
+                    <img className="imgzoom" style={{objectPosition: "top left"}} src={drum} />
+                    <div className="hideBot"><div>LEARN MORE</div></div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+
+export default Project;
