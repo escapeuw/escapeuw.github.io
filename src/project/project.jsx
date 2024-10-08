@@ -23,7 +23,10 @@ function Project() {
             <div className="project-grids">
                 <div className="grid" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="700">
-                    <div className="hideTop">iPhone Clone</div>
+                    <div className="hideTop">iPhone Clone
+                        <p className="hideSmall">A clone project of iPhone on web, using various frontend technologies<br/></p>
+                        <p style={{fontSize: "13px", color: "skyblue"}}>React JS / Vite JS / CSS3</p>
+                    </div>
                     <img className="imgmobile" src={iphone} />
                     <div className="hideBot"><div>LEARN MORE</div></div>
                 </div>
@@ -57,7 +60,8 @@ function Project() {
                     data-aos-duration="550" data-aos-offset="80">
                     <div className="hideTop">Drum Machine
                         <p className="hideSmall">Implementation of simple drum machine. <br/>
-                        Utilized Audio constructor</p>
+                        Utilized Audio( ) constructor</p>
+                        <p style={{fontSize: "13px", color: "skyblue"}}>JavaScript / SCSS</p>
                     </div>
                     <img className="imgzoom" style={{objectPosition: "top left"}} src={drum} />
                     <div className="hideBot"><div>LEARN MORE</div></div>

@@ -49,7 +49,6 @@
   display: inline-block;
   opacity: 1;
   animation: slideDown 1s ease;
-  font-weight: 300;
   font-size: 18px;
 }
 .project-grids .grid:hover .hideBot {
@@ -101,6 +100,7 @@
   top: 10%;
   display: block;
   opacity: 0;
+  font-weight: 400;
 }
 .hideBot {
   position: absolute;
@@ -111,7 +111,8 @@
   opacity: 0;
 }
 .hideSmall {
-  font-size: 10px;
+  font-size: 15px;
+  font-weight: 200;
 }
 
 .hideBot div {
