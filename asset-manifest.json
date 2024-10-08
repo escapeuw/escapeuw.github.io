@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45201eaa.css",
+    "main.js": "/static/js/main.30a6218a.js",
+    "static/js/453.d7ea85d8.chunk.js": "/static/js/453.d7ea85d8.chunk.js",
+    "static/media/youtube.png": "/static/media/youtube.e4a1a6b745190e615bb1.png",
+    "static/media/danweb.png": "/static/media/danweb.b89a92ebb7e80096f9eb.png",
+    "static/media/r.png": "/static/media/r.1316294830c3f1da83c4.png",
+    "static/media/weatherframe.png": "/static/media/weatherframe.67f02439cbc12674bba7.png",
+    "static/media/python2.png": "/static/media/python2.4587c94c73c79b28f7e8.png",
+    "static/media/json.png": "/static/media/json.51f84325fc82de49ab73.png",
+    "static/media/react.png": "/static/media/react.96be0ed76e124450d814.png",
+    "static/media/redux.png": "/static/media/redux.3018f3c3de2dec009cd2.png",
+    "static/media/jquery.png": "/static/media/jquery.626a846978784768c4d4.png",
+    "static/media/c.png": "/static/media/c.8178a36f666fd50af182.png",
+    "static/media/drum.png": "/static/media/drum.c993793d3383e17fa067.png",
+    "static/media/newiphone.png": "/static/media/newiphone.08b2c116295597deb759.png",
+    "static/media/sass.png": "/static/media/sass.90cd4d9b54caf6ab748c.png",
+    "static/media/css3.png": "/static/media/css3.4eb3c6ba22605e7b1afa.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.e761ef6c6687a130e22d.png",
+    "static/media/ts.png": "/static/media/ts.cf0efaf73c3cc9d45263.png",
+    "static/media/calc.png": "/static/media/calc.d21e7f2fba598fd1c247.png",
+    "static/media/html.png": "/static/media/html.6f9a8699c0ea083043f5.png",
+    "index.html": "/index.html",
+    "main.45201eaa.css.map": "/static/css/main.45201eaa.css.map",
+    "main.30a6218a.js.map": "/static/js/main.30a6218a.js.map",
+    "453.d7ea85d8.chunk.js.map": "/static/js/453.d7ea85d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45201eaa.css",
+    "static/js/main.30a6218a.js"
+  ]
+}
