@@ -52,7 +52,7 @@ function YouTube() {
     function navbar() {
         return (
             <div className='navbar'>
-                <img onClick={() => setDock("home")} className='ytlogo' src='./src/assets/ytlogo.png' alt='logo' />
+                <img onClick={() => setDock("home")} className='ytlogo' src='../src/assets/ytlogo.png' alt='logo' />
                 <div className='inputContainer'><input placeholder='Search' onChange={handleSearch}
                     onKeyDown={e => {
                         if (e.code === "Enter") {
@@ -174,22 +174,22 @@ function YouTube() {
             <div className='dock'>
                 <div onClick={() => setDock("home")} className='dockBlocks'>
                     {(dock === 'home')
-                        ? <img className='dockIcon' src='./src/assets/homeClicked.png' alt='clicked' />
-                        : <img className='dockIcon' src='./src/assets/home.png' alt='notclikcked' />} Home
+                        ? <img className='dockIcon' src='../src/assets/homeClicked.png' alt='clicked' />
+                        : <img className='dockIcon' src='../src/assets/home.png' alt='notclikcked' />} Home
                 </div>
                 <div onClick={() => {
                     fetchSearchData(shorts_url);
                     setDock("shorts")
                 }} className='dockBlocks'>
                     {(dock === 'shorts')
-                        ? <img className='dockIcon' src='./src/assets/shortsClicked.png' alt='clicked' />
-                        : <img className='dockIcon' src='./src/assets/shorts.png' alt='notclikcked' />} Shorts
+                        ? <img className='dockIcon' src='../src/assets/shortsClicked.png' alt='clicked' />
+                        : <img className='dockIcon' src='../src/assets/shorts.png' alt='notclikcked' />} Shorts
                 </div>
                 <div className='dockBlocksMid'>+</div>
                 <div onClick={() => setDock("subs")} className='dockBlocks'>
                     {(dock === 'subs')
-                        ? <img className='dockIcon' src='./src/assets/subsClicked.png' alt='clicked' />
-                        : <img className='dockIcon' src='./src/assets/subs.png' alt='notclikcked' />} Subscription
+                        ? <img className='dockIcon' src='../src/assets/subsClicked.png' alt='clicked' />
+                        : <img className='dockIcon' src='../src/assets/subs.png' alt='notclikcked' />} Subscription
                 </div>
                 <div className='dockBlocks'>You</div>
             </div>
@@ -247,7 +247,7 @@ function YouTube() {
                                 </div>
                                 <div className='buttons'>
                                     <span className='likeButton'>
-                                        <img style={{ width: 17, height: 17 }} src='./src/assets/like.png' alt='like' />
+                                        <img style={{ width: 17, height: 17 }} src='../src/assets/like.png' alt='like' />
                                         {numberFormat(curData.curVideo.statistics.likeCount)}
                                     </span>
                                     <span className='likeButton'>
@@ -280,7 +280,7 @@ function YouTube() {
                                             <div>
                                                 <div style={{ color: 'lightgray', fontSize: 12 }}>{comment.snippet.topLevelComment.snippet.authorDisplayName} · {moment(comment.snippet.topLevelComment.snippet.publishedAt).fromNow()}</div>
                                                 <div>{comment.snippet.topLevelComment.snippet.textOriginal}</div>
-                                                <div className='commentLike'><img style={{ width: 12, height: 12 }} src='./src/assets/like.png' alt='like' /> {comment.snippet.topLevelComment.snippet.likeCount !== 0 && comment.snippet.topLevelComment.snippet.likeCount}</div>
+                                                <div className='commentLike'><img style={{ width: 12, height: 12 }} src='../src/assets/like.png' alt='like' /> {comment.snippet.topLevelComment.snippet.likeCount !== 0 && comment.snippet.topLevelComment.snippet.likeCount}</div>
                                                 {comment.snippet.totalReplyCount > 1 ?
                                                     <div onClick={() => setReplies(comment.replies.comments)} style={{ color: '#1cabe8' }}>{comment.snippet.totalReplyCount} replies</div>
                                                     : comment.snippet.totalReplyCount === 1 ?
@@ -296,7 +296,7 @@ function YouTube() {
                                             <div>
                                                 <div style={{ color: 'lightgray', fontSize: 12 }}>{reply.snippet.authorDisplayName} · {moment(reply.snippet.publishedAt).fromNow()}</div>
                                                 <div>{reply.snippet.textOriginal}</div>
-                                                <div className='commentLike'><img style={{ width: 12, height: 12 }} src='./src/assets/like.png' alt='like' /> {reply.snippet.likeCount !== 0 && reply.snippet.likeCount}</div>
+                                                <div className='commentLike'><img style={{ width: 12, height: 12 }} src='../src/assets/like.png' alt='like' /> {reply.snippet.likeCount !== 0 && reply.snippet.likeCount}</div>
                                             </div>
                                         </div>
                                     )

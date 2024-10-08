@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './assets/sky.jpeg'
+import '../src/assets/sky.jpeg'
 import Calculator from './calculator/calculator.jsx';
 import Weather from './weather/weather.jsx';
 import YouTube from './youtube/youtube.jsx'
@@ -86,71 +86,71 @@ function Apps(props) {
     return(
       <div>
         <div className="appContainer">
-              <div className="imgText"><img src="./src/assets/messageicon.png" />
+              <div className="imgText"><img src="../src/assets/messageicon.png" />
                 Messages
               </div>
               <div className="imgText">
-              <img src="./src/assets/appstoreicon.png" />
+              <img src="../src/assets/appstoreicon.png" />
                 AppStore
               </div>
               <div className="imgText">
-              <img src="./src/assets/photo.png" />
+              <img src="../src/assets/photo.png" />
                 Photos
               </div>
               <div className="imgText">
-            <img src="./src/assets/safari.png" />
+            <img src="../src/assets/safari.png" />
                 Safari
               </div>
               <div className="imgText">
-            <img onClick={props.calculator} src="./src/assets/calculator.png" />
+            <img onClick={props.calculator} src="../src/assets/calculator.png" />
                 Calculator
               </div>
               <div className="imgText">
-            <img onClick={props.notes} src="./src/assets/notes.png" />
+            <img onClick={props.notes} src="../src/assets/notes.png" />
                 Notes
               </div>
               <div className="imgText">
-            <img src="./src/assets/calender.png" />
+            <img src="../src/assets/calender.png" />
                 Calender
               </div>
               <div className="imgText">
-            <img src="./src/assets/camera.png" />
+            <img src="../src/assets/camera.png" />
                 Camera
               </div>
               <div className="imgText">
-            <img src="./src/assets/setting.png" />
+            <img src="../src/assets/setting.png" />
                 Settings
               </div>
               <div className="imgText">
-            <img src="./src/assets/map.png" />
+            <img src="../src/assets/map.png" />
                 Maps
               </div>
               <div className="imgText">
-            <img src="./src/assets/mail.png" />
+            <img src="../src/assets/mail.png" />
                 Mail
               </div>
               <div className="imgText">
-            <img onClick={props.weather} src="./src/assets/weather.png" />
+            <img onClick={props.weather} src="../src/assets/weather.png" />
                 Weather
               </div>
               <div className="imgText">
-            <img src="./src/assets/clock.png" />
+            <img src="../src/assets/clock.png" />
                 Clock
               </div>
               <div className="imgText">
-            <img src="./src/assets/stock.png" />
+            <img src="../src/assets/stock.png" />
                 Stocks
               </div>
               <div className="imgText">
-                <img src="./src/assets/wallet.png" />
+                <img src="../src/assets/wallet.png" />
                 Wallet
               </div>
             </div>
             <div className="dockContainer appContainer">
-              <img src="./src/assets/music.jpeg" />
-              <img src="./src/assets/youtube.png" onClick={props.youtube} />
-              <img src="./src/assets/phone.png" onClick={props.phonecall} />
-              <img src="./src/assets/instagram.jpeg" />
+              <img src="../src/assets/music.jpeg" />
+              <img src="../src/assets/youtube.png" onClick={props.youtube} />
+              <img src="../src/assets/phone.png" onClick={props.phonecall} />
+              <img src="../src/assets/instagram.jpeg" />
             </div>
       </div>)
 }
