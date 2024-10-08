@@ -1,18 +1,18 @@
 import './about.css';
 import TypeIt from "typeit-react";
-import htmlIcon from "/Users/danie/Documents/github/danweb/src/assets/html.png";
-import css3Icon from "/Users/danie/Documents/github/danweb/src/assets/css3.png";
-import jsIcon from "/Users/danie/Documents/github/danweb/src/assets/js.png";
-import tsIcon from "/Users/danie/Documents/github/danweb/src/assets/ts.png";
-import reactIcon from "/Users/danie/Documents/github/danweb/src/assets/react.png";
-import cIcon from "/Users/danie/Documents/github/danweb/src/assets/c.png";
-import jsonIcon from "/Users/danie/Documents/github/danweb/src/assets/json.png";
-import jqueryIcon from "/Users/danie/Documents/github/danweb/src/assets/jquery.png";
-import rIcon from "/Users/danie/Documents/github/danweb/src/assets/r.png";
-import reduxIcon from "/Users/danie/Documents/github/danweb/src/assets/redux.png";
-import bsIcon from "/Users/danie/Documents/github/danweb/src/assets/bootstrap.png";
-import sassIcon from "/Users/danie/Documents/github/danweb/src/assets/sass.png";
-import python2Icon from "/Users/danie/Documents/github/danweb/src/assets/python2.png";
+import htmlIcon from "../assets/html.png";
+import css3Icon from "../assets/css3.png";
+import jsIcon from "../assets/js.png";
+import tsIcon from "../assets/ts.png";
+import reactIcon from "../assets/react.png";
+import cIcon from "../assets/c.png";
+import jsonIcon from "../assets/json.png";
+import jqueryIcon from "../assets/jquery.png";
+import rIcon from "../assets/r.png";
+import reduxIcon from "../assets/redux.png";
+import bsIcon from "../assets/bootstrap.png";
+import sassIcon from "../assets/sass.png";
+import python2Icon from "../assets/python2.png";
 
 function About() {
     return (

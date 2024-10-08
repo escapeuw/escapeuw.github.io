@@ -2,12 +2,12 @@ import './project.css';
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import iphone from '/Users/danie/Documents/github/danweb/src/assets/newiphone.png';
-import weather from '/Users/danie/Documents/github/danweb/src/assets/weatherframe.png';
-import calc from '/Users/danie/Documents/github/danweb/src/assets/calc.png';
-import youtube from '/Users/danie/Documents/github/danweb/src/assets/youtube.png';
-import danweb from '/Users/danie/Documents/github/danweb/src/assets/danweb.png';
-import drum from '/Users/danie/Documents/github/danweb/src/assets/drum.png';
+import iphone from '../assets/newiphone.png';
+import weather from '../assets/weatherframe.png';
+import calc from '../assets/calc.png';
+import youtube from '../assets/youtube.png';
+import danweb from '../assets/danweb.png';
+import drum from '../assets/drum.png';
 
 function Project() {
 
