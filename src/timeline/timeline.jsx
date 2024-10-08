@@ -42,7 +42,7 @@ function Timeline() {
                         <div className="timelineDetail">
                             <div className="subTitle">Graduated from University of Waterloo</div>
                             <span className="period">June 2023</span>
-                            <p>Graduated with a BA in Economics at University of Waterloo</p>
+                            <p>Graduated with a BA in Economics at the University of Waterloo</p>
                         </div>
                     </div>
                     <div className="innerContainer" data-aos="slide-left" data-aos-duration="800"
@@ -56,8 +56,8 @@ function Timeline() {
                         <div className="timelineDetail">
                             <div className="subTitle">Awarded 1<span className="smaller">st</span> place in Calculus and Vector <span className="period">(MCV4U)</span></div>
                             <span className="period">June 2014</span>
-                            <p>Graduated from St.Benedict C.S.S with the highest MCV4U score among the class of 2014,<br />
-                            which when I recognized/realized my strong logical thinking</p>
+                            <p>Graduated from St.Benedict C.S.S with the highest MCV4U score amongst the class of 2014, <br/>
+                             which is when I recognized my strength in logical thinking</p>
                         </div>
                     </div>
                     <div className="innerContainer" data-aos="slide-left" data-aos-duration="900"
