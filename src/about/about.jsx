@@ -13,6 +13,7 @@ import reduxIcon from "../assets/redux.png";
 import bsIcon from "../assets/bootstrap.png";
 import sassIcon from "../assets/sass.png";
 import python2Icon from "../assets/python2.png";
+import resume from "../assets/resume.pdf";
 
 function About() {
     return (
@@ -37,7 +38,7 @@ function About() {
                 </div>
             </div>
             <div className="resumeContainer">
-                <p className="resume">View Resume</p>
+                <a href={resume} target="blank" style={{textDecoration:"none"}}><p className="resume">View Resume</p></a>
             </div>
         
             <div className="dock">
