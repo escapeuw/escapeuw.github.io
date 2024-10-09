@@ -28,7 +28,7 @@ function Project() {
                         <p style={{fontSize: "13px", color: "skyblue"}}>React JS / Vite JS / CSS3</p>
                     </div>
                     <img className="imgmobile" src={iphone} />
-                    <div className="hideBot"><div>LEARN MORE</div></div>
+                    <div className="hideBot"><a target="_blank" href="https://escapeuw.github.io/iphone-clone/" className="demo"><div>LEARN MORE</div></a></div>
                 </div>
                 <div className="grid" data-aos="fade-up" data-aos-delay="300"
                     data-aos-duration="600">

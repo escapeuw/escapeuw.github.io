@@ -124,6 +124,15 @@
   padding-top: 7px;
 }
 
+.demo {
+  text-decoration: none;
+  color: beige;
+}
+.demo:hover div{
+  color: rgb(72, 184, 228);
+  border: 1px solid rgb(72, 184, 228);
+}
+
 .title {
   top: 0;
   font-size: 30px;

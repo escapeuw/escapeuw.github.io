@@ -4,7 +4,7 @@ function Header() {
     return (
         <div className="header">
             <div className="container">
-                <div className="logo">EscapeUW<span>.dev</span></div>
+                <div className="logo">d.Hwang<span>.dev</span></div>
                 <nav className="nav">
                     <a href="#about">About</a>
                     <a href="#project">Projects</a>
