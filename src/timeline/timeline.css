@@ -1,7 +1,16 @@
 #timeline {
     height: 900px;
-    width: 100%;
+    width: 100vw;
     padding-top: 70px;
+}
+
+@media screen and (max-width: 600px) {
+    #timeline {
+        margin-top: 1100px;
+    }
+    #timeline .title {
+        margin-bottom: 40px;
+    }
 }
 
 #timeline .container {

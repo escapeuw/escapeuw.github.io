@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 900px;
-  width: 100%;
+  height: 800px;
+  width: 100vw;
+  max-height: 2000px;
   font-weight: bolder;
   align-items: center;
   padding-top: 100px;
@@ -17,13 +18,34 @@
 .project-grids {
   display: grid;
   grid-template-columns: auto auto auto;
-  height: 700px;
   width: 1200px;
+  height: 900px;
   justify-content: center;
   align-items: center;
   padding-top: 75px;
   gap: 20px;
 }
+
+@media screen and (max-width: 850px) {
+  .project-grids {
+    grid-template-columns: auto auto;
+  }
+
+  #project {
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-grids {
+    grid-template-columns: auto;
+  }
+
+  #project {
+    height: 200%;
+  }
+}
+
 
 .project-grids .grid {
   display: flex;
@@ -51,6 +73,7 @@
   animation: slideDown 1s ease;
   font-size: 18px;
 }
+
 .project-grids .grid:hover .hideBot {
   background-color: rgba(6, 5, 16, 0.952);
   display: inline-block;
@@ -72,6 +95,7 @@
 .imgzoom:hover {
   opacity: 0;
 }
+
 .project-grids .grid:hover .imgzoom {
   opacity: 0.05;
 }
@@ -102,6 +126,7 @@
   opacity: 0;
   font-weight: 400;
 }
+
 .hideBot {
   position: absolute;
   height: 20%;
@@ -110,6 +135,7 @@
   display: flex;
   opacity: 0;
 }
+
 .hideSmall {
   font-size: 15px;
   font-weight: 200;
@@ -128,7 +154,8 @@
   text-decoration: none;
   color: beige;
 }
-.demo:hover div{
+
+.demo:hover div {
   color: rgb(72, 184, 228);
   border: 1px solid rgb(72, 184, 228);
 }
@@ -145,6 +172,7 @@
     opacity: 0;
     transform: translateY(-20px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -156,6 +184,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
