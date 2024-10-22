@@ -1,3 +1,4 @@
+
 .logo {
     font-size: 20px;
     font-weight: bold;
@@ -17,7 +18,7 @@
     top: 0;
     /* Position the navbar at the top of the page */
     height: 12vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     z-index: 10;
     backdrop-filter: blur(10px);
