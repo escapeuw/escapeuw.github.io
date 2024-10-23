@@ -6,7 +6,7 @@
   height: 100vh;
   width: 100%;
   height: 800px;
-  width: 100vw;
+  width: 99%;
   max-height: 2000px;
   font-weight: bolder;
   align-items: center;
@@ -26,8 +26,7 @@
 .project-grids {
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 1200px;
-
+  width: 90%;
   max-width: 1200px;
 
   height: 900px;
@@ -40,6 +39,7 @@
 @media screen and (max-width: 850px) {
   .project-grids {
     grid-template-columns: auto auto;
+    max-width: 800px;
   }
 
   #project {

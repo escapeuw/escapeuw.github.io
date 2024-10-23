@@ -16,7 +16,7 @@ function Timeline() {
                     TIMELINE
                 </div>
                 <div className="content">
-                    <div className="innerContainer" data-aos="slide-left"
+                    <div className="innerContainer" data-aos="fade-left"
                         data-aos-offset="80">
                         <div className="iconContainer">
                             <div className="icon">
@@ -31,7 +31,7 @@ function Timeline() {
                             and problem solving, I aspired to become a developer. </p>
                         </div>
                     </div>
-                    <div className="innerContainer" data-aos="slide-left" data-aos-duration="700"
+                    <div className="innerContainer" data-aos="fade-leftt" data-aos-duration="700"
                         data-aos-easing="ease" data-aos-offset="80">
                         <div className="iconContainer">
                             <div className="icon">
@@ -45,7 +45,7 @@ function Timeline() {
                             <p>Graduated with a BA in Economics at the University of Waterloo</p>
                         </div>
                     </div>
-                    <div className="innerContainer" data-aos="slide-left" data-aos-duration="800"
+                    <div className="innerContainer" data-aos="fade-left" data-aos-duration="800"
                         data-aos-easing="ease" data-aos-offset="80">
                         <div className="iconContainer">
                             <div className="icon">
@@ -60,7 +60,7 @@ function Timeline() {
                              which is when I recognized my strength in logical thinking</p>
                         </div>
                     </div>
-                    <div className="innerContainer" data-aos="slide-left" data-aos-duration="900"
+                    <div className="innerContainer" data-aos="fade-left" data-aos-duration="900"
                         data-aos-easing="ease" data-aos-offset="80">
                         <div className="iconContainer">
                             <div className="icon">
@@ -74,7 +74,7 @@ function Timeline() {
                             <p>Was introduced to English for the first time after immigrating to Canada</p>
                         </div>
                     </div>
-                    <div className="innerContainer" data-aos="slide-left" data-aos-duration="1000"
+                    <div className="innerContainer" data-aos="fade-left" data-aos-duration="1000"
                         data-aos-easing="ease" data-aos-offset="20">
                         <div className="iconContainer">
                             <div className="icon">

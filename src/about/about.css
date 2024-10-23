@@ -20,6 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 99%;
 }
 
 #about .dock {
@@ -142,6 +143,7 @@
 
 @media screen and (max-width: 600px) {
     .dock, .dockIcon img  {
+        width: 0%;
         display: none;
         border: none;
         box-shadow: none;
