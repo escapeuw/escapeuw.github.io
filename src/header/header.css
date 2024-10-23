@@ -18,12 +18,19 @@
 .header {
     display: flex;
     overflow: hidden;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     position: sticky;
-    /* Set the navbar to fixed position */
-    top: 0;
+    float: right;
+    clear: both;
+    /* Set the navbar to fixed position
     /* Position the navbar at the top of the page */
+    top: 0;
+    left: 0;
     height: 12vh;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     z-index: 10;
     backdrop-filter: blur(10px);
@@ -79,9 +86,10 @@
     width: 100%;
 }
 
+
 @media screen and (max-width: 450px) {
     .container {
-        width: 85vw;
+        width: 88%;
     }
     .nav {
         gap: 10px;

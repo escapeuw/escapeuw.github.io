@@ -56,7 +56,7 @@ function Timeline() {
                         <div className="timelineDetail">
                             <div className="subTitle">Awarded 1<span className="smaller">st</span> place in Calculus and Vector <span className="period">(MCV4U)</span></div>
                             <span className="period">June 2014</span>
-                            <p>Graduated from St.Benedict C.S.S with the highest MCV4U score amongst the class of 2014, <br/>
+                            <p>Graduated from St.Benedict C.S.S with the highest MCV4U score amongst the class of 2014,
                              which is when I recognized my strength in logical thinking</p>
                         </div>
                     </div>

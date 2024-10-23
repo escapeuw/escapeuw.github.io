@@ -1,4 +1,5 @@
 #timeline {
+    box-sizing: border-box;
     height: 900px;
     width: 100vw;
     padding-top: 70px;
@@ -100,10 +101,10 @@
         width: 90vw;
     }
     .innerContainer {
-        height: 15vh;
+        height: 20vh;
     }
     #timeline .content {
-        gap: 33px;
+        gap: 2vh;
     }
     #timeline .subTitle {
         font-size: 18px;

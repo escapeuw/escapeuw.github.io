@@ -1,4 +1,5 @@
 #about {
+    box-sizing: border-box;
     height: 92vh;
     width: 100%;
     display: flex;
@@ -149,8 +150,8 @@
 }
 @media screen and (max-width: 450px) {
     #about {
-        height: 80vh;
-        padding-top: 20vh;
+        height: 100vh;
+        padding-top: 40vh;
     }
     .typeContainer {
         gap: 20vh;
