@@ -4,3 +4,10 @@
     width: 100vw;
     font-size: 100px;
 }
+
+@media screen and (max-width: 600px) {
+    #contact {
+        padding-top: 30vh;
+    }
+  }
+  

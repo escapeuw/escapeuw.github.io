@@ -80,7 +80,7 @@ function Timeline() {
                             <div className="icon">
                                 <i class="fa-solid fa-cake-candles"></i>
                             </div>
-                            <div className="timelineBar"></div>
+                            <div className="timelineBar last"></div>
                         </div>
                         <div className="timelineDetail">
                             <div className="subTitle">Born in South Korea</div>

@@ -21,7 +21,7 @@ function About() {
             <div className="aboutContainer">
                 <div className="typeContainer">
                     <div className="typeIt">
-                        <TypeIt style={{ fontSize: "35px" }}
+                        <TypeIt style={{fontSize: "2.5rem"}}
                             options={{
                                 strings: ["Hello, my name is <a>Daniel</a>.<br/> I'm a junior Front End Developer."],
                                 speed: 100,

@@ -36,27 +36,6 @@
         0 8px 8px rgba(83, 83, 83, 0.11),
         0 16px 16px rgba(87, 86, 86, 0.158);
 }
-@media only screen and (max-width: 750px) {
-    #about .dock {
-        position: relative;
-        width: 500px;
-        min-width: 300px;
-        height: 50px;
-        overflow-x: auto;
-    }
-    #about .dockIcon {
-        width: 50px;
-    }
-    #about .iconContainer {
-        position: relative;
-        width: 50px;
-        height: 100%;
-    }
-    #about .iconName {
-        display: none;
-        position: relative;
-    }
-  }
 
 
 #about .iconName {
@@ -166,5 +145,17 @@
         border: none;
         box-shadow: none;
         opacity: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    #about {
+        height: 80vh;
+        padding-top: 20vh;
+    }
+    .typeContainer {
+        gap: 20vh;
+    }
+    .profile {
+        font-size: 1.1rem;
     }
 }

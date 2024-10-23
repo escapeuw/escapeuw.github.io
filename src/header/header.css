@@ -2,6 +2,11 @@
 .logo {
     font-size: 20px;
     font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 0 0 5px rgb(83, 78, 78);
+    -webkit-box-shadow: 0 8px 6px -6px rgb(114, 109, 109);
+    -moz-box-shadow: 0 8px 6px -6px rgb(204, 194, 194);
+    box-shadow: 0 8px 6px -6px rgba(190, 188, 188, 0.411);
 }
 
 .logo span {
@@ -73,3 +78,22 @@
 .nav a:hover::after {
     width: 100%;
 }
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 85vw;
+    }
+    .nav {
+        gap: 10px;
+        font-size: 12px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+    
+    .logo span {
+        font-size: 13px;
+    }
+}
+  
+  
