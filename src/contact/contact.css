@@ -1,9 +1,52 @@
 #contact {
     box-sizing: border-box;
-    text-align: center;
-    height: 100vh;
-    width: 100%;
-    font-size: 100px;
+    height: 30vh;
+    width: 80%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactContainer {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactItem {
+    border: 1px solid beige;
+    padding: 8px;
+}
+.contactItem:hover {
+    border: 1px solid #77d7ec;
+    background: -webkit-linear-gradient(45deg, #65adaf, #77d7ec, #5572c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.15s;
+    transform: scale(1.02);
+}
+
+.contactEmail {
+    font-size: 15px;
+}
+.noBorder {
+    border: none;
+}
+
+.email {
+    padding: 2px;
+    width: 80%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyButton {
+    border: 1px solid beige;
+    border-radius: 5px;
+    
 }
 
 @media screen and (max-width: 600px) {
