@@ -1,6 +1,8 @@
-
+* {
+}
 #timeline {
-    height: 100%;
+    box-sizing: border-box;
+    height: 900px;
     width: 99%;
     padding-top: 70px;
 }
