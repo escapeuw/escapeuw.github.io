@@ -1,57 +1,66 @@
 #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-top: 3px solid rgba(82, 85, 86, 0.692);
     box-sizing: border-box;
-    height: 30vh;
+    height: 40vh;
     width: 80%;
-    font-size: 20px;
+    color: white;
+    font-weight: 200;
     display: flex;
     justify-content: center;
+    font-size: 1rem;
 }
 
 .contactContainer {
-    width: 50%;
-    height: 50%;
+    width: 350px;
+    font-size: 25px;
+    height: 30%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.contactItem {
-    border: 1px solid beige;
-    padding: 8px;
+.email {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 15%;
+    gap: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.vl {
+    border-left: 1px solid gray;
+    height: 100%;
+}
+
+.contactItem {
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(52, 52, 61, 0.757);
+    color: white;
+    padding: 8px;
+    width: 50px;
+}
+
 .contactItem:hover {
-    border: 1px solid #77d7ec;
-    background: -webkit-linear-gradient(45deg, #65adaf, #77d7ec, #5572c0);
+    background: -webkit-linear-gradient(45deg, #65adaf, #77d7ec);
+    transform: scale(1.02)
+}
+.email:hover {
+    background: -webkit-linear-gradient(45deg, #65adaf, #77d7ec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 0.15s;
-    transform: scale(1.02);
 }
 
-.contactEmail {
-    font-size: 15px;
+.copyright {
+    margin-top: 20px;
+    color: gray;
+    font-size: 0.9rem;
 }
-.noBorder {
-    border: none;
-}
-
-.email {
-    padding: 2px;
-    width: 80%;
-    font-size: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-.copyButton {
-    border: 1px solid beige;
-    border-radius: 5px;
-    
-}
-
-@media screen and (max-width: 600px) {
-    #contact {
-        padding-top: 30vh;
-    }
-  }
-  
