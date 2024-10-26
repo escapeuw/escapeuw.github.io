@@ -30,7 +30,7 @@ function Contact() {
                 <span>Copy</span>
             </div>
             <div className="copyright">
-                <p>Daniel Hwang <span>©2024</span></p>
+                <p>Daniel Hwang <span className="crYear">©2024</span></p>
             </div>
         </section>
     )

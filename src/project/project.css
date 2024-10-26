@@ -39,17 +39,13 @@
   }
 
   #project {
-    height: 1200px;
+    height: 1100px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .project-grids {
     grid-template-columns: auto;
-  }
-
-  #project {
-    height: 1100px;
   }
 }
 
