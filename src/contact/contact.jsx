@@ -25,7 +25,7 @@ function Contact() {
                 navigator.clipboard.writeText('d.hwang0918@gmail.com');
                 alert("Copied to clipboard!")
             }}>
-                <span>d.hwang0918@gmail.com</span>
+                <span style={{textDecoration: "none"}}>d.hwang0918@gmail.com</span>
                 <span className="vl"></span>
                 <span>Copy</span>
             </div>
