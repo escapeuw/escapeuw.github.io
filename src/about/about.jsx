@@ -13,7 +13,7 @@ import reduxIcon from "../assets/redux.png";
 import bsIcon from "../assets/bootstrap.png";
 import sassIcon from "../assets/sass.png";
 import python2Icon from "../assets/python2.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/resume_final.pdf";
 
 function About() {
     return (
