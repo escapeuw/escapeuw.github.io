@@ -21,9 +21,9 @@ function About() {
             <div className="aboutContainer">
                 <div className="typeContainer">
                     <div className="typeIt">
-                        <TypeIt style={{fontSize: "2.3rem"}}
+                        <TypeIt style={{ fontSize: "2.3rem" }}
                             options={{
-                                strings: ["Hello, my name is <a>Daniel</a>.<br/> I'm a junior Front End Developer."],
+                                strings: ["Hello, my name is <a>Daniel</a>.<br/> I'm a Full-Stack Developer."],
                                 speed: 100,
                                 loop: true,
                                 loopDelay: [1000, 4000],
@@ -32,8 +32,10 @@ function About() {
                             }} />
                     </div>
                     <div className="profile">
-                        <div>A <span className="underline">creative</span> developer with exceptional experience
-                            in <span className="underline">frontend</span> development. I'm also very interested and passionate about learning backend architectures.</div>
+                        <div>I'm passionate about building <span className="underline">intuitive</span> user experiences and <span className="underline">scalable</span> backend systems.
+                            I love <span className="underline">leveraging technology</span> to remove friction and create more <span className="underline">efficient</span>,
+                            user-friendly solutions.</div>
+
                         <div>Turning <span className="underline">ideas</span> into real life <span className="underline">products</span> is my calling.</div>
                     </div>
                 </div>
