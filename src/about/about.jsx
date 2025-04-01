@@ -5,16 +5,16 @@ import css3Icon from "../assets/css3.png";
 import jsIcon from "../assets/js.png";
 import tsIcon from "../assets/ts.png";
 import reactIcon from "../assets/react.png";
-import cIcon from "../assets/c.png";
-import jsonIcon from "../assets/json.png";
+import cIcon from "../assets/c.svg";
 import jqueryIcon from "../assets/jquery.png";
-import rIcon from "../assets/r.png";
+import postgreIcon from "../assets/postgre.png";
 import reduxIcon from "../assets/redux.png";
 import bsIcon from "../assets/bootstrap.png";
 import sassIcon from "../assets/sass.png";
 import python2Icon from "../assets/python2.png";
 import resume from "../assets/resume_final.pdf";
-
+import nodejs from "../assets/nodejs.svg";
+import awsIcon from "../assets/aws.svg"
 function About() {
     return (
         <section id="about">
@@ -47,7 +47,8 @@ function About() {
                     <div className="dockIcon">
                         <div className="iconContainer">
                             <div className="iconName">Html</div>
-                            <img src={htmlIcon} /></div>
+                            <img src={htmlIcon} />
+                        </div>
                     </div>
                     <div className="dockIcon"><div className="iconContainer"><div className="iconName" style={{ left: "10px" }}>CSS</div><img src={css3Icon} /></div></div>
                     <div className="dockIcon"><div className="iconContainer"><div className="iconName">SASS</div><img src={sassIcon} /></div></div>
@@ -58,9 +59,12 @@ function About() {
                     <div className="dockIcon"><div className="iconContainer"><div className="iconName">React</div><img src={reactIcon} /></div></div>
                     <div className="dockIcon"><div className="iconContainer"><div className="iconName" style={{ left: "5px" }}>Redux</div><img src={reduxIcon} /></div></div>
                     <div className="dockIcon"><div className="iconContainer"><div className="iconName" style={{ left: "15px" }}>C</div><img src={cIcon} /></div></div>
-                    <div className="dockIcon"><div className="iconContainer"><div className="iconName">JSON</div><img src={jsonIcon} /></div></div>
+                    <div className="dockIcon"><div className="iconContainer"><div className="iconName">Node</div><img src={nodejs} /></div></div>
                     <div className="dockIcon"><div className="iconContainer"><div className="iconName">jQuery</div><img src={jqueryIcon} /></div></div>
-                    <div className="dockIcon"><div className="iconContainer"><div className="iconName" style={{ left: "15px" }}>R</div><img style={{ height: "90%", objectFit: "fill", marginTop: "3px" }} src={rIcon} /></div></div>
+                    <div className="dockIcon"><div className="iconContainer"><div className="iconName" style={{ left: "-5px" }}>PostgreSQL</div>
+                        <img src={postgreIcon} /></div></div>
+                    <div className="dockIcon"><div className="iconContainer"><div className="iconName">AWS</div>
+                        <img src={awsIcon} /></div></div>
                 </div>
             </div>
         </section>
