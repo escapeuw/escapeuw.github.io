@@ -24,17 +24,16 @@ const Hero = () => {
                             Hello, my name is
                         </p>
                         <div className="hero-title animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>
-                            <span style={{ color: "white" }}>John Doe</span>
+                            <span style={{ color: "white" }}>Daniel Hwang</span>
                         </div>
                         <div className="hero-subtitle animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
-                            I build <span className="text-glow text-highlight">exceptional</span> digital experiences.
+                            I build <span className="text-glow text-focus">exceptional</span> digital experiences.
                         </div>
                     </div>
 
                     <p className="hero-description animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
-                        I'm a software developer specialized in creating remarkable digital experiences.
-                        Currently, I'm focused on building accessible, user-centered products at{" "}
-                        <a href="#" className="text-highlight highlight-text">Company XYZ</a>.
+                        I'm a <span className="text-highlight">software engineer</span> specialized in crafting intuitive user interfaces and scalable backend systems —
+                        leveraging technology to simplify, streamline, and empower real-world experiences.
                     </p>
 
                     <div className="hero-button animate-fade-in" style={{ animationDelay: '1s', animationFillMode: 'forwards' }}>
