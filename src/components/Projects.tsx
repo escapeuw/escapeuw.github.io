@@ -1,40 +1,50 @@
 // src/components/Projects.tsx
 
+import type { JSX } from "react";
+
 
 const projects = [
     {
         id: 1,
-        title: "E-commerce Platform",
-        description: "A full-featured e-commerce solution with product management, shopping cart, and payment processing.",
-        tech: ["React", "Node.js", "MongoDB", "Stripe"],
+        title: "EatWhat.ai",
+        description: "A personalized meal recommendation web application that uses AI to suggest dishes based on user preferences, mood, location and time.",
+        tech: ["React", "TypeScript", "Go", "PostgreSQL", "OpenAI"],
         image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80",
-        link: "#",
+        link: "https://dhwang.dev/eatwhat-ai",
     },
     {
         id: 2,
-        title: "Task Management App",
-        description: "A productivity tool designed to help users organize tasks, set priorities, and track their progress.",
-        tech: ["React", "Firebase", "Tailwind CSS"],
+        title: "Faithbook",
+        description: "A Christian community-driven social platform featuring user authentication, post creation, prayer request threads, comment interactions, and devotional sharing.",
+        tech: ["React", "JavaScript", "Node.js", "PostgreSQL"],
         image: "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?auto=format&fit=crop&w=800&q=80",
-        link: "#",
+        link: "https://faithbook.site",
     },
     {
         id: 3,
-        title: "Finance Dashboard",
+        title: "Iphone Clone",
         description: "Interactive dashboard for visualizing financial data with advanced filtering and reporting capabilities.",
         tech: ["TypeScript", "D3.js", "Express", "PostgreSQL"],
         image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&q=80",
-        link: "#",
+        link: "https://dhwang.dev/iphone-clone",
+    },
+    {
+        id: 4,
+        title: "Portfolio Website",
+        description: "Interactive dashboard for visualizing financial data with advanced filtering and reporting capabilities.",
+        tech: ["TypeScript", "D3.js", "Express", "PostgreSQL"],
+        image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&q=80",
+        link: "https://dhwang.dev",
     },
 ];
 
-const Projects = () => {
+const Projects = (): JSX.Element => {
     return (
-        <section className="projects-section">
-            <div className="container">
+        <div className="container">
+            <section className="projects-section" id="projects">
                 <div className="animate-fade-right" style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}>
                     <div className="section-subtitle">02.</div>
-                    <h2 className="section-title">Featured Projects</h2>
+                    <h2 className="section-title">Projects</h2>
                     <div className="section-underline animate-fade-right" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}></div>
                 </div>
 
@@ -51,13 +61,15 @@ const Projects = () => {
                             <div style={{ padding: "1rem" }}>
                                 <h3 style={{ fontSize: "1.25rem", fontWeight: 600 }}>{project.title}</h3>
                                 <p className="text-muted" style={{ marginTop: "0.5rem" }}>{project.description}</p>
-                                <div className="project-tech">
+                            </div>
+                            <div>
+                                <div className="project-tech" style={{ paddingLeft: '0.75rem' }}>
                                     {project.tech.map((tech, i) => (
                                         <span key={i}>{tech}</span>
                                     ))}
                                 </div>
-                                <div className="project-footer" style={{ marginTop: "1rem" }}>
-                                    <a href={project.link} className="text-highlight highlight-text">
+                                <div className="project-footer" style={{ padding: '1rem' }}>
+                                    <a href={project.link} target='blank' className="text-highlight highlight-text">
                                         View Project
                                     </a>
                                 </div>
@@ -65,9 +77,8 @@ const Projects = () => {
                         </div>
                     ))}
                 </div>
-            </div>
-        </section>
-    );
+            </section>
+        </div>);
 };
 
 export default Projects;

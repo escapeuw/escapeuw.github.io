@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 
 const skillCategories = [
     {
@@ -38,13 +39,13 @@ const skillCategories = [
     },
 ];
 
-const Skills = () => {
+const Skills = (): JSX.Element => {
     return (
-        <section className="skills-section">
-            <div className="container">
+        <div className="container">
+            <section className="skills-section" id="skills">
                 <div className="animate-fade-right" style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}>
                     <div className="section-subtitle">03.</div>
-                    <h2 className="section-title">My Skills</h2>
+                    <h2 className="section-title">Tech Stack</h2>
                     <div className="section-underline animate-fade-right" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}></div>
                 </div>
 
@@ -67,8 +68,8 @@ const Skills = () => {
                         </div>
                     ))}
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 };
 

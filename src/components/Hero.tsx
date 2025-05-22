@@ -1,8 +1,9 @@
 // src/components/Hero.tsx
-import { useEffect, useState } from "react";
+import { useEffect, useState, type JSX } from "react";
 import "../assets/styles.css";
+import resume from "../assets/resume.pdf"
 
-const Hero = () => {
+const Hero = (): JSX.Element => {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
@@ -20,9 +21,9 @@ const Hero = () => {
             <div className="hero-content">
                 <div className={`hero-text-group ${isVisible ? 'animate-fade-in' : ''}`}>
                     <div>
-                        <p className="text-highlight animate-fade-right" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
+                        <div className="text-highlight animate-fade-right" style={{ animationDelay: '0.2s', animationFillMode: 'forwards', marginBottom: '0.25rem' }}>
                             Hello, my name is
-                        </p>
+                        </div>
                         <div className="hero-title animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>
                             <span style={{ color: "white" }}>Daniel Hwang</span>
                         </div>
@@ -31,17 +32,18 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <p className="hero-description animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
+                    <p className="hero-description animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'forwards', lineHeight: '1.5rem' }}>
                         I'm a <span className="text-highlight">software engineer</span> specialized in crafting intuitive user interfaces and scalable backend systems —
                         leveraging technology to simplify, streamline, and empower real-world experiences.
                     </p>
 
                     <div className="hero-button animate-fade-in" style={{ animationDelay: '1s', animationFillMode: 'forwards' }}>
-                        <button className="btn">Check out my work</button>
+                        <a href={resume} target="blank"><button className="btn">View Resume</button></a>
                     </div>
                 </div>
             </div>
         </section>
+
     );
 };
 
