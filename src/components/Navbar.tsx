@@ -1,4 +1,4 @@
-import React, { useState, type JSX } from "react";
+import { useState, type JSX } from "react";
 import "../assets/styles.css"; // 스타일은 따로 관리
 
 const Navbar = (): JSX.Element => {
