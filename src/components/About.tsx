@@ -14,25 +14,24 @@ const About = () => {
                 </div>
 
                 <p className="about-intro">
-                    I'm a passionate fullstack developer with a love for clean code and modern user interfaces.
+                    I'm a passionate <span className="text-highlight">software engineer</span> crafting meaningful digital experiences.<br />
                     Here's a bit more about my background and what I do.
                 </p>
 
                 <div className="about-content">
                     <div className="about-text">
                         <p>
-                            Hi, I'm <span className="text-highlight">Daniel Hwang</span>, a fullstack software engineer who specializes in building
-                            intuitive user experiences and scalable backend systems.
+                            My journey started when I realized I’ve always loved shaping ideas into real, thoughtful products — combining structured thinking
+                            with a strong sense of aesthetics. <br />
+                            After graduating from the <span className="text-highlight">University of Waterloo</span> with a non-technical degree,
+                            I discovered my strength in problem solving and began teaching myself software development by building projects
+                            that solve real-world problems from scratch. <br />
+                            <br />
+                            I'm deeply immersed in tech — not just in writing code, but in exploring where the industry is heading.
+                            From building with the latest advancements in AI to exploring emerging patterns like Model Context Protocol,
+                            I'm always excited to see what's next — and to experiment with new tools and paradigms.
                         </p>
-                        <p>
-                            I enjoy working with <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Node.js</strong>,
-                            and I care deeply about design, code quality, and creating seamless digital experiences.
-                            Hello! I'm John, a fullstack developer based in New York City with over 5 years of experience building web applications. My journey in software development started when I was in college, tinkering with HTML and CSS to build simple websites.
 
-                            Fast-forward to today, and I've had the privilege of working at a startup, a large corporation, and a software agency. My main focus these days is building accessible, inclusive digital experiences at Company XYZ.
-
-                            I love working across the entire stack and enjoy the challenge of integrating frontend and backend systems. When I'm not coding, you'll find me hiking, reading science fiction, or experimenting with new tech
-                        </p>
                     </div>
                     <div className="about-photo">
                         <img src={profilePic} alt="Profile picture" className="profile-image" />

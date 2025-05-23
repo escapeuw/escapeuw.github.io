@@ -1,13 +1,15 @@
 import type { JSX } from "react";
+import { Monitor, Server, Cloud } from "lucide-react";
 
 const skillCategories = [
     {
         name: "Frontend",
+        icon: Monitor,
         skills: [
             "JavaScript (ES6+)",
             "TypeScript",
             "React",
-            "Next.js",
+            "Sass / SCSS",
             "HTML5 & CSS3",
             "Tailwind CSS",
             "Redux",
@@ -15,26 +17,28 @@ const skillCategories = [
     },
     {
         name: "Backend",
+        icon: Server,
         skills: [
             "Node.js",
             "Express",
             "Python",
-            "Django",
-            "GraphQL",
-            "REST APIs",
-            "WebSockets",
+            "Go",
+            "Gin",
+            "REST API",
+            "Sequelize",
         ],
     },
     {
         name: "Other",
+        icon: Cloud,
         skills: [
             "Git & GitHub",
+            "PostgreSQL",
             "Docker",
             "AWS",
+            "Railway",
             "CI/CD",
-            "Jest & Testing",
-            "Figma",
-            "Agile/Scrum",
+            "OpenAI API"
         ],
     },
 ];
@@ -50,23 +54,28 @@ const Skills = (): JSX.Element => {
                 </div>
 
                 <div className="skills-grid">
-                    {skillCategories.map((category, index) => (
-                        <div
-                            key={category.name}
-                            className="skill-card animate-fade-in"
-                            style={{ animationDelay: `${0.3 + index * 0.2}s`, animationFillMode: "forwards" }}
-                        >
-                            <h3>{category.name}</h3>
-                            <ul className="skill-list">
-                                {category.skills.map((skill, i) => (
-                                    <li key={i}>
-                                        <span></span>
-                                        <span className="text-muted">{skill}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
+                    {skillCategories.map((category, index) => {
+                        const Icon = category.icon;
+                        return (
+                            <div
+                                key={category.name}
+                                className="skill-card animate-fade-in"
+                                style={{ animationDelay: `${0.3 + index * 0.2}s`, animationFillMode: "forwards" }}
+                            >
+                                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                                    <Icon size={24} />
+                                    <h3>{category.name}</h3></div>
+                                <ul className="skill-list">
+                                    {category.skills.map((skill, i) => (
+                                        <li key={i}>
+                                            <span></span>
+                                            <span className="text-muted">{skill}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )
+                    })}
                 </div>
             </section>
         </div>

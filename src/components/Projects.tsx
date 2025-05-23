@@ -1,39 +1,43 @@
 // src/components/Projects.tsx
 
 import type { JSX } from "react";
+import eatwhat from "../assets/eatwhat-ai.png";
+import faithbook from "../assets/faithbook.png";
+import iphone from "../assets/iphone-clone.png";
+import portfolio from "../assets/portfolio.png";
 
 
 const projects = [
     {
         id: 1,
         title: "EatWhat.ai",
-        description: "A personalized meal recommendation web application that uses AI to suggest dishes based on user preferences, mood, location and time.",
+        description: "An AI-powered meal recommendation web application that suggests personalized dishes based on user mood, taste preferences, location, and time of day — helping users decide what to eat with minimal input.",
         tech: ["React", "TypeScript", "Go", "PostgreSQL", "OpenAI"],
-        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80",
+        image: eatwhat,
         link: "https://dhwang.dev/eatwhat-ai",
     },
     {
         id: 2,
         title: "Faithbook",
-        description: "A Christian community-driven social platform featuring user authentication, post creation, prayer request threads, comment interactions, and devotional sharing.",
-        tech: ["React", "JavaScript", "Node.js", "PostgreSQL"],
-        image: "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?auto=format&fit=crop&w=800&q=80",
+        description: "A Christian social networking platform with user authentication, post creation, comment threads, Bible search, and customizable profiles — designed to make sharing personal reflections more convenient.",
+        tech: ["React", "JavaScript", "Node.js", "Express", "PostgreSQL"],
+        image: faithbook,
         link: "https://faithbook.site",
     },
     {
         id: 3,
         title: "Iphone Clone",
-        description: "Interactive dashboard for visualizing financial data with advanced filtering and reporting capabilities.",
-        tech: ["TypeScript", "D3.js", "Express", "PostgreSQL"],
-        image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&q=80",
+        description: "An iPhone interface clone featuring functional apps like Calculator, YouTube, and Weather — built with integrated APIs to demonstrate advanced front-end skills and UI precision.",
+        tech: ["React", "JavaScript", "OpenWeather API", "Youtube Data API"],
+        image: iphone,
         link: "https://dhwang.dev/iphone-clone",
     },
     {
         id: 4,
         title: "Portfolio Website",
-        description: "Interactive dashboard for visualizing financial data with advanced filtering and reporting capabilities.",
-        tech: ["TypeScript", "D3.js", "Express", "PostgreSQL"],
-        image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=800&q=80",
+        description: "A personal portfolio website built with React and Typescript — showcasing projects, technical skills, and a strong sense of design through a clean, responsive UI.",
+        tech: ["React", "TypeScript", "Tailwind CSS"],
+        image: portfolio,
         link: "https://dhwang.dev",
     },
 ];
