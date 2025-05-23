@@ -9,9 +9,10 @@ const Navbar = (): JSX.Element => {
             <div className="navbar-container">
                 <div className="logo-container">
                     <div className="logo"></div>
-                    <div className="navbar-brand">
-                        dHwang<span className="text-gradient">.dev</span>
-                    </div>
+                    <a href="#hero">
+                        <div className="navbar-brand">
+                            dHwang<span className="text-gradient">.dev</span>
+                        </div></a>
                 </div>
 
                 <div className={`navbar-links ${isOpen ? "active" : ""}`}>

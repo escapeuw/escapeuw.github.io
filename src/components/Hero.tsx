@@ -11,7 +11,7 @@ const Hero = (): JSX.Element => {
     }, []);
 
     return (
-        <section className="hero-section">
+        <section className="hero-section" id="hero">
             <div className="hero-bg" />
             <div className="hero-blur-layer">
                 <div className="hero-blur-1"></div>

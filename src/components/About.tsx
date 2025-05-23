@@ -1,7 +1,8 @@
 import "../assets/styles.css";
 import profilePic from "../assets/profile.jpg";
+import type { JSX } from "react";
 
-const About = () => {
+const About = (): JSX.Element => {
     return (
         <div className="container">
             <section id="about" className="about-section">
